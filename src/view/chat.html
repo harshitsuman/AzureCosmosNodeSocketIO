@@ -1,0 +1,14 @@
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.0/socket.io.js"></script>
+    <script>
+    var socket = io.connect('http://localhost:8080');
+    socket.emit('user',{deviceSerialNumber:864495034011417});
+    socket.on('chat',function(data) {
+    document.write(JSON.stringify(data));
+    });
+  </script>
+</head>
+<body>
+</body>
+</html>

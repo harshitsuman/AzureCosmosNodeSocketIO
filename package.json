@@ -1,0 +1,22 @@
+{
+  "name": "harshit",
+  "version": "1.0.0",
+  "description": "Tracking Application",
+  "main": "index.js",
+  "scripts": {
+    "restart": "nodemon src/index.js --exec node",
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "Harshit Suman",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/cosmos": "^3.6.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
